@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <legend title="input "> <div> Input Type In HTML
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+    <label for="username">Username</label>
+    <input type="text" id="username" required minlength="6"  maxlength="12" placeholder="Enter your name">
+    <input type="submit" id="username" >
+    <input type="reset">
+    <hr>
+    
+    <label for="password">Passowrd : </label>
+    <input type="password" id="password" minlength="8" maxlength="16" required placeholder="Enter your Password"> 
+    <input type="submit">
+    <input type="reset">
+    <hr>
+    <label for="email">Email : </label>
+    <input type="email" required placeholder="Enter Your Email " id="email" >
+    <input type="submit">
+    <input type="reset">
+    <hr>
+    <label for="phone">Phone Num : </label>
+    <input type="tel" placeholder="Enter your Phone num" pattern="{01}[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9]" id="phone" >
+    <input type="submit">
+    <input type="reset">
+    <hr>
+    <label for="bday">Birth of Date</label>
+    <input type="date" >
+    <hr>
+    <label for="number">Number of Family Members : </label>
+    <input type="number" min="0" max="10">
+    <hr>
+
+    <label for="radio-btn">Your hobby => </label>
+    <input type="radio" id="garden" value="garden">
+    <label for="garden">Gardening</label>
+    <input type="radio" id="sport" value="sport">
+    <label for="sport">Sport</label>
+    <input type="radio" id=video-games value=video-games>
+    <label for=video-games>Video Games</label>
+<hr>
+ <label for="dropdown">Payment Option</label>
+   <select name="" id="dropdown">
+    <option value="Bkash">Bkash</option>
+    <option value="Nagad">Nagad</option>
+    <option value="nexus pay">Nexus Pay</option>
+    <hr>
+    <br>
+    <label for="checkbox">Do you Subscribe:  </label>
+    <input type="checkbox" id="checkBox">
+    <hr>
+    <label for="Subscribe">Subscribe</label>
+    <input type="checkbox">
+    <hr>
+    <label for="file">File Submit here :</label>
+    <input type="file" accept="image/png">
+   </select>
+</form>
+v
+</legend>
+</body>
+</html>
