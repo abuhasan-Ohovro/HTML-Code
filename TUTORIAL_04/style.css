@@ -1,0 +1,51 @@
+#video-title{
+  font-family:   Arial, sans-serif;
+  font-size: 19px;
+  font-weight:bold;
+  width: 300px;
+  line-height:24px;
+  margin-bottom: 7px;
+
+}
+
+#view{
+  font-family: 'Arial';
+  font-size: 14px;
+  color: rgb(32, 32, 32);
+  margin-top: 0px;
+  margin-bottom : 14px;
+}
+
+#name{
+  font-family: 'Arial';
+  font-size: 16px;
+  margin-top: 0px;
+  color: rgb(5, 4, 4);
+  /* font-weight: ; */
+
+}
+
+#video_description{
+  font-family: 'Arial';
+  font-size: 16px;
+  margin-top: 0px;
+  color: rgb(5, 4, 4);
+  width: 300px;
+  line-height: 3.2vh;
+  font-size:;
+}
+
+div{
+  background-color: hsl(190, 76%, 44%);
+   height: 60px;
+   text-align: center;
+   border-radius:5px;
+
+}
+
+div p{
+  padding-top: 20px;
+  font-size: 18px;
+  color: aliceblue;
+  font-weight:300;
+}
